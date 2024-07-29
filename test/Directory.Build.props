@@ -20,6 +20,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<ProjectReference Include="..\..\src\$(ProjectName.Replace(' ', '_').Replace('.Tests', ''))\$(ProjectName.Replace(' ', '_').Replace('.Tests', '')).csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<Using Include="Xunit" />
 		<Using Include="FluentAssertions" />
 		<Using Include="NSubstitute" />
