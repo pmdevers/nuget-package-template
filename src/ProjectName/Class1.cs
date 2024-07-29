@@ -1,6 +1,9 @@
 ﻿namespace StreamWave;
 
-public class Class1
+public static class Class1
 {
-
+    public static void HelloWorld()
+    {
+        Console.WriteLine("Hello World");
+    }
 }

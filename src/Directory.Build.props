@@ -25,7 +25,7 @@
           <Company>$(CompanyName)</Company>
           <RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
           <PackageReadmeFile>README.md</PackageReadmeFile>
-          <PackageIcon>sonar.png</PackageIcon>
+          <PackageIcon>logo.png</PackageIcon>
 	  <PackageProjectUrl>https://github.com/$(CompanyName)/$(ProjectName)</PackageProjectUrl>
           <PackageLicenseExpression>MIT</PackageLicenseExpression>
           <RepositoryType>git</RepositoryType>
