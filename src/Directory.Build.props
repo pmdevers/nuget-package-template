@@ -9,29 +9,27 @@
     <CompanyName>PMDEvers</CompanyName>
     <ProjectName>ProjectName</ProjectName>
 
-    <Version>0.0.1</Version>
-
     <PackageId>$(ProjectName)</PackageId>
-	  <Description>
-		 
-	  </Description>
-	  <Authors>Patrick Evers</Authors>
-	  <Owners>$(CompanyName)</Owners>
-	  <PackageTags>
+    <Description>
 
-          </PackageTags>
-	  
-	  <!-- Redefine MSBuild Properties -->
-          <Company>$(CompanyName)</Company>
-          <RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
-          <PackageReadmeFile>README.md</PackageReadmeFile>
-          <PackageIcon>logo.png</PackageIcon>
-	  <PackageProjectUrl>https://github.com/$(CompanyName)/$(ProjectName)</PackageProjectUrl>
-          <PackageLicenseExpression>MIT</PackageLicenseExpression>
-          <RepositoryType>git</RepositoryType>
-          <RepositoryUrl>https://github.com/$(CompanyName)/$(ProjectName)</RepositoryUrl>
-          <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	  <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    </Description>
+    <Authors>Patrick Evers</Authors>
+    <Owners>$(CompanyName)</Owners>
+    <PackageTags>
+
+    </PackageTags>
+
+    <!-- Redefine MSBuild Properties -->
+    <Company>$(CompanyName)</Company>
+    <RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>logo.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/$(CompanyName)/$(ProjectName)</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/$(CompanyName)/$(ProjectName)</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
   </PropertyGroup>
 
@@ -39,11 +37,12 @@
     <None Include="..\..\assets\$(PackageIcon)">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
+      <Visible>false</Visible>
     </None>
     <None Include="..\..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-	  <InternalsVisibleTo Include="$(MSBuildProjectName).Tests"/>
+    <InternalsVisibleTo Include="$(MSBuildProjectName).Tests"/>
   </ItemGroup>
 </Project>
