@@ -5,7 +5,8 @@
 ![GitHub License](https://img.shields.io/github/license/pmdevers/nuget-package-template) 
 ![Github Issues Open](https://img.shields.io/github/issues/pmdevers/nuget-package-template) 
 ![Github Pull Request Open](https://img.shields.io/github/issues-pr/pmdevers/nuget-package-template) 
- 
+[![Scheduled Code Security Testing](https://github.com/pmdevers/nuget-package-template/actions/workflows/security-analysis.yml/badge.svg?event=schedule)](https://github.com/pmdevers/nuget-package-template/actions/workflows/security-analysis.yml)
+
 
 [PROJECT DESCRIPTION]
 
