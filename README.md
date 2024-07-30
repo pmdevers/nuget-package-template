@@ -1,5 +1,12 @@
 # [PROJECT TITLE]
 
+![Github Release](https://img.shields.io/github/v/release/pmdevers/nuget-package-template) 
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/pmdevers/nuget-package-template/.github%2Fworkflows%2Fbuild-publish.yml) 
+![GitHub License](https://img.shields.io/github/license/pmdevers/nuget-package-template) 
+![Github Issues Open](https://img.shields.io/github/issues/pmdevers/nuget-package-template) 
+![Github Pull Request Open](https://img.shields.io/github/issues-pr/pmdevers/nuget-package-template) 
+ 
+
 [PROJECT DESCRIPTION]
 
 ![Alt text](/assets/logo.png "logo")
