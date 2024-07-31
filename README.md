@@ -10,7 +10,7 @@
 
 [PROJECT DESCRIPTION]
 
-![Alt text](/assets/logo.png "logo")
+![Alt text](https://raw.githubusercontent.com/pmdevers/nuget-package-template/master/assets/logo.png "logo")
 
 ## Table of Contents
 
